@@ -1,0 +1,23 @@
+{
+  "name": "scan-aws-services-action",
+  "version": "1.0.0",
+  "description": "![Commit Activity](https://img.shields.io/github/commit-activity/t/subhamay-bhattacharyya-gha/scan-aws-services-action)&nbsp;![Last Commit](https://img.shields.io/github/last-commit/subhamay-bhattacharyya-gha/scan-aws-services-action)&nbsp;![Release Date](https://img.shields.io/github/release-date/subhamay-bhattacharyya-gha/scan-aws-services-action)&nbsp;![Repo Size](https://img.shields.io/github/repo-size/subhamay-bhattacharyya-gha/scan-aws-services-action)&nbsp;![File Count](https://img.shields.io/github/directory-file-count/subhamay-bhattacharyya-gha/scan-aws-services-action)&nbsp;![Issues](https://img.shields.io/github/issues/subhamay-bhattacharyya-gha/scan-aws-services-action)&nbsp;![Top Language](https://img.shields.io/github/languages/top/subhamay-bhattacharyya-gha/scan-aws-services-action)&nbsp;![Commit Activity Monthly](https://img.shields.io/github/commit-activity/m/subhamay-bhattacharyya-gha/scan-aws-services-action)&nbsp;![Custom Endpoint](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/bsubhamay/b6d056e46abb7865dfe07f867fdbd6a4/raw/scan-aws-services-action.json?)",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/subhamay-bhattacharyya-gha/scan-aws-services-action.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/subhamay-bhattacharyya-gha/scan-aws-services-action/issues"
+  },
+  "homepage": "https://github.com/subhamay-bhattacharyya-gha/scan-aws-services-action#readme",
+  "dependencies": {
+    "@actions/core": "^1.11.1"
+  }
+}
