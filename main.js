@@ -64,9 +64,9 @@ async function main() {
       "lambda-ts": false,
       "glue-python": false,
       "state-machine": false,
-      "python-layer-python": false,
-      "python-layer-js": false,
-      "python-layer-ts": false,
+      "lambda-layer-python": false,
+      "lambda-layer-js": false,
+      "lambda-layer-ts": false,
     };
 
     // Lambda
@@ -104,19 +104,19 @@ async function main() {
     } catch (_) {}
 
     // Python Layer
-    const pythonLayerDir = path.join(rootDir, "python-layer");
+    const pythonLayerDir = path.join(rootDir, "lambda-layer");
     try {
       const stats = await fs.stat(pythonLayerDir);
       if (stats.isDirectory()) {
-        result["python-layer-python"] = await scanDirectoryForExtensions(
+        result["lambda-layer-python"] = await scanDirectoryForExtensions(
           pythonLayerDir,
           EXTENSIONS.python
         );
-        result["python-layer-js"] = await scanDirectoryForExtensions(
+        result["lambda-layer-js"] = await scanDirectoryForExtensions(
           pythonLayerDir,
           EXTENSIONS.js
         );
-        result["python-layer-ts"] = await scanDirectoryForExtensions(
+        result["lambda-layer-ts"] = await scanDirectoryForExtensions(
           pythonLayerDir,
           EXTENSIONS.ts
         );
