@@ -34,7 +34,6 @@ test-results/
 .release-it.json
 
 # GitHub Actions
-dist/
 *.tgz
 
 # Misc
