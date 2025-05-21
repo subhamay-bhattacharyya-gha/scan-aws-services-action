@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/subhamay-bhattacharyya-gha/scan-aws-services-action/compare/v1.0.0...v1.1.0) (2025-05-21)
+
+
+### Features
+
+* Update action.yaml to define AWS services listing action with outputs ([d8dccc2](https://github.com/subhamay-bhattacharyya-gha/scan-aws-services-action/commit/d8dccc2f0bf975cd516bb47a06ef4305888c7b22))
+
 # 1.0.0 (2025-05-21)
 
 
